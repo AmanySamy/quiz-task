@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+.quiz-card {
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px #ccc;
+  padding: 20px;
+  text-align: start;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3.quiz-title {
+  margin-top: 0;
+  font-size: 26px;
+  text-transform: capitalize;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p.quiz-desc {
+  font-size: 18px;
+  color: #666565;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.quiz-meta {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.quiz-page {
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.question-card {
+  box-shadow: 0px 0px 10px #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
 }
