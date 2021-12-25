@@ -79,6 +79,6 @@ export const data = [{
     ],
     "score": null,
     "title": "quiz title",
-    "url": "https://www.youtube.com/watch?v=e6EGQFJLl04"
+    "url": "https://www.youtube.com/embed/e6EGQFJLl04"
   }
   ]

@@ -9,7 +9,10 @@ export default function AllQuizes() {
                 <Quiz quiz={quiz} />
             ))
             }
-            <a href="/add-quiz" className="btn">Create New Quiz</a>
+            <a href="/add-quiz" className="btn add-quiz">
+                <i className="far fa-plus-square"></i>
+                Create New Quiz
+            </a>
         </div>
     )
 }

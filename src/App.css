@@ -9,23 +9,88 @@ h3.quiz-title {
   margin-top: 0;
   font-size: 26px;
   text-transform: capitalize;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  border: 0;
 }
 p.quiz-desc {
   font-size: 18px;
   color: #666565;
+  text-decoration: none;
 }
 .quiz-meta {
   display: flex;
   gap: 20px;
+  text-decoration: none;
+}
+a.btn.add-quiz {
+  text-decoration: none;
+  background: green;
+  color: #FFF;
+  padding: 15px 25px;
+  margin: 10px auto;
+  display: flex;
+  width: max-content;
+  border-radius: 8px;
+  gap: 10px;
 }
 .quiz-page {
   padding: 20px;
   margin: 20px auto;
   width: 80%;
 }
+.quiz-page .title{
+  text-transform: capitalize;
+}
 .question-card {
   box-shadow: 0px 0px 10px #ccc;
   padding: 20px;
-  margin: 20px;
+  margin: 20px 0px;
   border-radius: 15px;
+}
+h4.question-title {
+  margin: 0px 0px 15px 0px;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+.alert {
+  padding: 10px;
+  border: 1px solid #AAA;
+  border-radius: 8px;
+  margin: 16px 0px;
+}
+.alert.success{
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+.alert.error{
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+
+}
+.d-flex{
+  display: flex;
+}
+.quiz-page-header{
+  justify-content: space-between;
+}
+.score span{
+  border: 1px solid #aaa;
+  width: 100px;
+  height: 40px;
+  display: inline-flex;
+  gap: 5px;
+}
+.score {
+  align-items: center;
+  gap: 10px;
+}
+.ans {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
