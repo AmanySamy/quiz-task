@@ -8,17 +8,14 @@ export default function SingleQuiz() {
     const [CurrentQuestionID, setCurrentQuestionID] = React.useState(0)
     const [AnswerID, setAnswerID] = React.useState(0)
     const [CurrentQuestionFeedback, setCurrentQuestionFeedback] = React.useState()
-    const [CurrentQuestionAnswer, setCurrentQuestionAnswer] = React.useState([])
+    
     function handleChange(e, id, status) {
         setCurrentQuestionID(id)
         setCurrentQuestionFeedback(status)
         setAnswerID(e.target.value)
-        let obj = {}
-        obj[id] = { 'answer_feedback': status }
-        obj[id] = { 'answer_id': e.target.value }
-        setCurrentQuestionAnswer([...CurrentQuestionAnswer, obj])
+       
     }
-    console.log(CurrentQuestionAnswer)
+
 
     return (
         <div className='quiz-page'>
