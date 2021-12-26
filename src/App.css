@@ -24,7 +24,7 @@ p.quiz-desc {
   gap: 20px;
   text-decoration: none;
 }
-a.btn.add-quiz {
+a.btn.add-quiz,button[type="submit"] {
   text-decoration: none;
   background: green;
   color: #FFF;
@@ -93,4 +93,35 @@ h4.question-title {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+form.add-quiz-form {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+.quiz-title {
+  margin: 10px 0px;
+  display: flex;
+}
+.quiz-title label{
+  width: 200px;
+}
+.quiz-title input,.ques-title-input,.ans-title-input{
+flex-grow: 1;
+padding: 10px;
+}
+.ques-container,.ans-container{
+  justify-content: space-between;
+  margin: 10px 0px;
+
+}
+.ques-container i{
+  color: red;
+}
+.ans-container{
+  padding-inline-start: 30px;
+}
+.m-auto{
+  margin: auto;
 }

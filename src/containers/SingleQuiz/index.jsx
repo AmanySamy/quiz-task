@@ -22,7 +22,7 @@ export default function SingleQuiz() {
 
     return (
         <div className='quiz-page'>
-            <a href="/">Back to Home</a>
+            <a href="/"> <i className='fas fa-home'></i> Back to Home</a>
             <div className="d-flex quiz-page-header">
                 <div className='w-50'>
                     <h3 className="title">{quiz.title}</h3>
